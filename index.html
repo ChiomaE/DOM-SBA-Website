@@ -4,15 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Scramble</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stle.css">
 </head>
 <body>
-    <h1 style="font-size: 60px;">Word Scrambler Machine!</h1>
-    <p>Type in a word or sentence and watch it scramble before your very eyes!</p>
+    <div id="description">
+        <h1 style="font-size: 60px;">Word Scrambler Machine!</h1>
+        <p>Type in a word or sentence and watch it scramble before your very eyes!
+
+        </p>
+
+    </div>
     <!-- Scrambler -->
     <!-- Space for scrambled text, at most h3 size -->
+    <div id="scrambled_word"></div>
+    <div>
+        <input type="text" id="word" placeholder="Write it here">
+        <button type="submit" id="scramble">Scramble!</button>
+        <button type="clear" id="reset">Reset</button>
+    </div>
+    
 
-    <input type="text">
 
 
 
