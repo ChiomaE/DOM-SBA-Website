@@ -26,6 +26,11 @@ scrambleBtn.addEventListener("click", function() {
     //console.log("Appended scrambled word to 'scrambled_word' element.");
 });
 
+const clrBtn = document.getElementById('reset');
+
+clrBtn.addEventListener("click", function(){
+    scrambled_word.textContent = '';
+})
 
 
 
